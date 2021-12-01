@@ -1,0 +1,58 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(192, 178, 206);
+}
+
+.common{
+    background-color: rgb(182, 190, 108);
+    border: solid 2px white;
+    position: absolute;
+}
+
+.header{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    background-color: rgb(198, 231, 165);
+    height: 100px;
+    z-index: 2;
+}
+
+.leftmenu{
+    top: 114px;
+    left: 5px;
+    width: 100px;
+    bottom: 64px;
+    background-color: cyan;
+    font-size: small;
+    z-index: 1;
+}
+
+.mainbody{
+    top: 114px;
+    bottom: 64px;
+    left: 114px;
+    right: 114px;
+    background-color: rgb(202, 170, 158);
+}
+
+.right{
+    top: 114px;
+    bottom: 64px;
+    right: 5px;
+    width: 100px;
+    background-color: cornflowerblue;
+    font-size: small;
+}
+
+.footer{
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 50px;
+    background-color: rgb(224, 183, 191);
+    text-align: center;
+    position: fixed;
+
+}
+
