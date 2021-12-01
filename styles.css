@@ -1,0 +1,55 @@
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pz;
+    color: rgb(24, 24, 139);
+    background-color:rgb(230, 230, 191);
+
+}
+    
+
+/* li{ <!-- This gets everything inthe lists --> */
+    li{
+    font-size: 15px;
+
+}
+
+a{
+    colo: rgb(44, 127, 43);
+}
+
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.bold{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+}
+
+.home-bg{
+    /* background-image: href = ".../images/Y-oval.jpg" */
+    background-image: url(images/oval.jpg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+
+}
+
+.box{
+border-width: 3px;
+border-style: solid;
+border-color: rgb(80, 80, 80);
+}
+
+.box2{
+    padding: 20px;
+}
+
+.box3{
+    margin: 100px;
+
+}
+
+
